@@ -147,6 +147,9 @@
     nav a{
         color: gray !important;
     }
+    .nav-link{
+        color: gray !important;
+    }
     
 }
 
