@@ -1,0 +1,180 @@
+/* Getting rid of the default link styles here */
+.navbar {
+    padding: 0px !important;
+    background-color: lavender;
+    
+}
+
+.navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+.nav-link{
+    color: indigo !important;
+}
+
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;    
+  }
+
+.navbar ul {
+    /* margin-left: 1200px; */
+    /* align-content: stretch; */
+}
+
+#header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    background-color: indigo;
+    color: white;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    ;
+}
+
+
+
+.body{
+    background-color: lightgray;
+}
+
+
+.description-content {
+    /* Box-model */
+    padding: 40px;
+    margin: 10px;
+    margin-top: 32px;
+    /* Visual */
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px;
+    
+  }
+
+#imageNav-area {
+    width: 100%;
+    /* Box-model */
+    padding: 30px 30px 43px;
+    /* Positioning */
+    margin-top: 32px;
+    border: 20px;
+    /* Visual */
+    background-color: #fff;
+  }
+#images {
+    /* Box-model */
+    padding-top: 15px;
+    /* Typography */
+    text-align: center;
+  }
+
+
+.imageNav-photo{
+    width: 200px;
+    /* Box-model */
+    height: 200px;
+}
+
+.imageCom-photo{
+    width: 500px;
+    /* Box-model */
+    height: 500px;
+    padding: 0px
+
+}
+
+.imageInd-photo{
+    width: 600px;
+    /* Box-model */
+    height: 600px;
+    padding: 40px
+
+}
+
+#desc-img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.hd{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: indigo; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.hd1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: indigo; 
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: white;
+    padding-top: 30px;
+}
+
+.comp_hd{
+    color: indigo;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+#images-comp {
+    text-align: center;
+  }
+
+@media(max-width: 600px) {
+    .navbar{
+        background-color: indigo;
+    }
+
+    nav a{
+        color: gray !important;
+    }
+    
+}
+
+@media(max-width: 950px){
+    .imageInd-photo{
+        width: 400px;
+        height: 400px;
+        padding: 20px
+    
+    }
+    .hd{
+        font-size: 28px;
+    }
+    .imageCom-photo{
+        width: 300px;
+        height: 300px;
+        padding: 0px
+    
+    }
+}
+
+@media(max-width: 1200px){
+    .imageCom-photo{
+        width: 340px;
+        height: 340px;
+        padding: 0px
+    
+    }
+}
+
+
